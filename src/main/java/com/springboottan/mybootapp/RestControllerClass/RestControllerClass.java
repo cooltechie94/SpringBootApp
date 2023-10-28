@@ -8,10 +8,10 @@ public class RestControllerClass {
 
     @GetMapping("/")
     public String getHello(){
-        return "Hello MFs";
+        return "Hello World";
     }
     @GetMapping("/users")
     public String getUsers(){
-        return "Ideally it should read from a DB and return users. But hey, we need to learn that";
+        return "Loading...";
     }
 }
